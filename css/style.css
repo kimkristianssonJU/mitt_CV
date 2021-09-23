@@ -1,0 +1,52 @@
+* {
+    font-family: 'Montserrat';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+}
+
+#content {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-bottom: solid gray 3px; /* Border */
+}
+
+#side-bar {
+    flex-basis: 33%;
+    box-sizing: border-box;
+    border-right: solid gray 3px; /* Border */
+}
+
+address {
+    font-style: normal;
+}
+
+#main-content {
+    display: flex;
+    flex-basis: 67%;
+    flex-direction: column;
+}
+
+#main-content > section {
+    margin-left: 5%;
+}
+
+li {
+    margin-left: 0;
+}
