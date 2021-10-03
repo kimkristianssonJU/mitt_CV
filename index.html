@@ -19,11 +19,8 @@
 <body id="content">
     <!-- Header -->
     <header>
-        <img src="./images/profil_bild.jpeg" alt="Bild på Kim">
-        <div id="title-name">
-            <h1>Kim<br>Kristiansson</h1>
-            <p id="profession-title">Programmerare</p>
-        </div>
+        <img src="./images/profile_picture.jpeg" alt="Bild på Kim">
+        <!-- JSON DATA HERE -->
     </header>
     <!-- //Header -->
 
@@ -37,13 +34,9 @@
                         <i class="fas fa-home"></i>
                     </div>
 
-                    <div class="details-information">
+                    <div id="address-container" class="details-information">
                         <h3>Adress</h3>
-                        <p>
-                            Lasarettsgatan 9B<br>
-                            331 30, Värnamo<br>
-                            Sverige
-                        </p>
+                        <!-- JSON DATA HERE -->
                     </div>
                 </li>
 
@@ -51,22 +44,20 @@
                     <div class="details-icon">
                         <i class="fas fa-phone"></i>
                     </div>
-                    <div class="details-information">
+                    <div id="phone-container" class="details-information">
                         <h3>Telefon</h3>
-                        <p id="tel-desktop">076 - 259 28 65</p>
-                        <a id="tel-mobile" href="Tel:0762592865">076 - 259 28 65</a>
+                        <!-- JSON DATA HERE -->
                     </div>
                 </li>
 
                 <li>
-                    <a class="details-link" href="mailto:kim.kristiansson@hotmail.com">
+                    <a class="details-link" id="mailto-email">
                         <div class="details-icon">
                             <i class="fas fa-envelope"></i>
                         </div>
-                        <div class="details-information">
-                            <h3>E-Post<div class="slider"></div>
-                            </h3>
-                            <p>kim.kristiansson@hotmail.com</p>
+                        <div id="email-container" class="details-information">
+                            <h3>E-Post<div class="slider"></div></h3>
+                            <!-- JSON DATA HERE -->
                         </div>
                     </a>
                 </li>
@@ -75,24 +66,21 @@
                     <div class="details-icon">
                         <i class="fas fa-id-card"></i>
                     </div>
-                    <div class="details-information">
+                    <div id="birth-container" class="details-information">
                         <h3>Födelsedatum/Ort</h3>
-                        <p>
-                            09/12/1993<br>
-                            Värnamo
-                        </p>
+                        <!-- JSON DATA HERE -->
                     </div>
                 </li>
 
                 <li>
-                    <a class="details-link" href="https://github.com/kimkristianssonJU" target="_blank">
+                    <a class="details-link" id="github-url" target="_blank">
                         <div class="details-icon">
                             <i class="fab fa-github"></i>
                         </div>
-                        <div class="details-information">
+                        <div id="github-container" class="details-information">
                             <h3>GitHub<div class="slider"></div>
                             </h3>
-                            <p>github.com/kimkristianssonJU</p>
+                            <!-- JSON DATA HERE -->
                         </div>
                     </a>
                 </li>
@@ -102,50 +90,12 @@
         <div id="flex-fix">
             <section id="competence">
                 <h2 class="h2-titles"><span class="heading-decoration">Ko</span>mpetens</h2>
-                <ul>
-                    <li>
-                        <p>JavaScript</p>
-                        <div class="bar">
-                            <div class="progress" id="progress-js"></div>
-                        </div>
-                    </li>
-                    <li>
-                        <p>HTML/CSS</p>
-                        <div class="bar">
-                            <div class="progress" id="progress-html-css"></div>
-                        </div>
-                    </li>
-                    <li>
-                        <p>C#</p>
-                        <div class="bar">
-                            <div class="progress" id="progress-csharp"></div>
-                        </div>
-                    </li>
-                    <li>
-                        <p>C++</p>
-                        <div class="bar">
-                            <div class="progress" id="progress-cpp"></div>
-                        </div>
-                    </li>
-                </ul>
+                <!-- JSON DATA HERE -->
             </section>
 
             <section id="languages">
                 <h2 class="h2-titles"><span class="heading-decoration">Sp</span>råk</h2>
-                <ul>
-                    <li>
-                        <p>Svenska</p>
-                        <div class="bar">
-                            <div class="progress" id="progress-swe"></div>
-                        </div>
-                    </li>
-                    <li>
-                        <p>Engelska</p>
-                        <div class="bar">
-                            <div class="progress" id="progress-eng"></div>
-                        </div>
-                    </li>
-                </ul>
+                <!-- JSON DATA HERE -->
             </section>
         </div>
     </aside>
@@ -155,122 +105,17 @@
     <main id="main-content">
         <section id="profile">
             <h2 class="h2-titles"><span class="heading-decoration">Pr</span>ofil</h2>
-            <article id="profile-description">
-                <p>
-                    En målmedveten programmerar med stor strävan av att försöka toppa sig själv i varje projekt. Ser
-                    stora drömmar och idéer som en värdig utmaning och kommer att vara en stor tillgång för det
-                    fantastiska, digitala
-                    liv vi lever idag.
-                </p>
-            </article>
+            <!-- JSON DATA HERE -->
         </section>
 
         <section id="work-experiences">
             <h2 class="h2-titles"><span class="heading-decoration">Ar</span>betslivserfarenhet</h2>
-            <ul id="job-list">
-                <li>
-                    <h3 class="job-title">Catering Host, M/S Galaxy, Silja Line</h3>
-                    <div class="job-city">
-                        <p>Stockholm</p>
-                    </div>
-
-                    <p class="job-duration">april 2017 &#8212; aug 2017</p>
-                    <ul class="job-description">
-                        <li>
-                            <div class="list-bullet">
-                                <i class="fas fa-circle"></i>
-                            </div>
-                            <p>
-                                Att vara anställd på ett av Siljas fartyg innebär att du i regel har två tjänster; din
-                                främsta tjänst är att rädda liv i vid nödsituation, så som hjärtstopp, sjönöd eller
-                                kapsejsning. När det behovet inte finns, eller om du har slut på liv att rädda, så måste
-                                du återgå till tjänsten som vi egentligen sökte till. I mitt fall var det Catering Host
-                            </p>
-                        </li>
-                        <li>
-                            <div class="list-bullet">
-                                <i class="fas fa-circle"></i>
-                            </div>
-                            <p>
-                                Arbetet som Catering Host, dvs. buffévärd eller serveringsvärd på Finlandsfärgan
-                                M/S Galaxy som går mellan Stockholm och Åbo, omfattades av många internationella
-                                bemötande. Samt även mycket dricks, sprit och finnar.
-                                Spriten fick vi dock spara tills vi blev landkrabbor igen.
-                            </p>
-                        </li>
-                        <li>
-                            <div class="list-bullet">
-                                <i class="fas fa-circle"></i>
-                            </div>
-                            <p>
-                                Jag åtog mig gärna arbete inne i disken, där var kontrasten från gästmottagandet som
-                                buffévärd oftast en befrielse.
-                            </p>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <h3 class="job-title">Aalberts Surface Technologies AB</h3>
-                    <div class="job-city">
-                        <p>Värnamo</p>
-                    </div>
-                    <p class="job-duration">juni 2013 &#8212; maj 2016 <br> juni 2018 &#8212; Nuvarande</p>
-                    <ul class="job-description">
-                        <li>
-                            <div class="list-bullet">
-                                <i class="fas fa-circle"></i>
-                            </div>
-                            <p>
-                                AAlberts Surface Techologies, f.d. Hauck Heat Treatment och f.f.d. Stålservice, även
-                                f.f.f.d. J-son Härd. Kärt barn har många namn. Men vi har alltid hållit oss till en
-                                sak; att göra stål hårdare.
-                            </p>
-                        </li>
-                        <li>
-                            <div class="list-bullet">
-                                <i class="fas fa-circle"></i>
-                            </div>
-                            <p>
-                                Att göra stål hårade är inte helt sanningsenligt, man kan också göra det mjukare. I ett
-                                härderi så specialicerar man sig inom värmebehandling. Via denna värmebehandling så kan
-                                man manipulera fram flera olika egenskaper hos stålet som senare ska appliceras med sin
-                                nya, anpassade struktur där den gör bäst nytta.
-                            </p>
-                        </li>
-                        <li>
-                            <div class="list-bullet">
-                                <i class="fas fa-circle"></i>
-                            </div>
-                            <p>
-                                Mitt arbete går ut på ungefär samma sätt som på färgan, jag ska vara vaksam på vad som
-                                händer i produktionen, se till så att ingen katastrof sker. Om allt verkar lungt med de
-                                900 C° varma elementen med en omsvepande atmosfär av propan, metanol, ammoniak och
-                                kväve, så ska jag se till så att vi har något att mata ungarna med.
-                            </p>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
+            <!-- JSON DATA HERE -->
         </section>
 
         <section id="education">
             <h2 class="h2-titles"><span class="heading-decoration">Ut</span>bildning</h2>
-            <ul id="education-list">
-                <li>
-                    <h3 class="education-school">Hotell och restaurang, Finnvedens Gymnasium</h3>
-                    <div class="education-city">
-                        <p>Värnamo</p>
-                    </div>
-                    <p class="education-duration">aug 2009 &#8212; juni 2012</p>
-                </li>
-                <li>
-                    <h3 class="education-school">Webbutveckling ASP.NET, Jönköpings Universitet</h3>
-                    <div class="education-city">
-                        <p>Värnamo</p>
-                    </div>
-                    <p class="education-duration">aug 2009 &#8212; juni 2012</p>
-                </li>
-            </ul>
+            <!-- JSON DATA HERE -->
         </section>
     </main>
     <!-- //Main Content -->

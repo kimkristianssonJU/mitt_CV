@@ -1,0 +1,99 @@
+{
+    "header": {
+        "firstname": "Kim",
+        "lastname": "Kristiansson",
+        "profession": "Programmerare"
+    },
+    "details": {
+        "address": {
+            "street": "Lasarettsgatan 9B",
+            "city": "331 30, Värnamo",
+            "country": "Sverige"
+        },
+        "phone": "076 - 259 28 65",
+        "email": "kim.kristiansson@hotmail.com",
+        "birth": {
+            "date": "09/12/1993",
+            "city": "Värnamo"
+        },
+        "github": {
+            "title": "github.com/kimkristianssonJU",
+            "url": "https://github.com/kimkristianssonJU"
+        }
+    },
+    "competences": [
+        {
+            "title": "JavaScript",
+            "percentage": "35%"
+        },
+        {
+            "title": "HTML/CSS",
+            "percentage": "75%"
+        },
+        {
+            "title": "C#",
+            "percentage": "50%"
+        },
+        {
+            "title": "C++",
+            "percentage": "25%"
+        }
+    ],
+    "languages": [
+        {
+            "title": "Svenska",
+            "percentage": "100%"
+        },
+        {
+            "title": "Engelska",
+            "percentage": "65%"
+        }
+    ],
+    "profile": "En målmedveten programmerar med stor strävan av att försöka toppa sig själv i varje projekt. Ser stora drömmar och idéer som en värdig utmaning och kommer att vara en stor tillgång för det fantastiska, digitala liv vi lever idag.",
+    "workExperiences": [
+        {
+            "title": "Catering Host, M/S Galaxy, Silja Line",
+            "city": "Stockholm",
+            "duration": "april 2017 \u2014 aug 2017",
+            "descriptions": [
+                {
+                    "text": "Att vara anställd på ett av Siljas fartyg innebär att du i regel har två tjänster; din främsta tjänst är att rädda liv i vid nödsituation, så som hjärtstopp, sjönöd eller kapsejsning. När det behovet inte finns, eller om du har slut på liv att rädda, så måste du återgå till tjänsten som vi egentligen sökte till. I mitt fall var det Catering Host"
+                },
+                {
+                    "text": "Arbetet som Catering Host, dvs. buffévärd eller serveringsvärd på Finlandsfärgan M/S Galaxy som går mellan Stockholm och Åbo, omfattades av många internationella bemötande. Samt även mycket dricks, sprit och finnar. Spriten fick vi dock spara tills vi blev landkrabbor igen."
+                },
+                {
+                    "text": "Jag åtog mig gärna arbete inne i disken, där var kontrasten från gästmottagandet som buffévärd oftast en befrielse."
+                }
+            ]
+        },
+        {
+            "title": "Aalberts Surface Technologies AB",
+            "city": "Värnamo",
+            "duration": "juni 2013 \u2014 maj 2016\n\njuni 2018 \u2014 nuvarande",
+            "descriptions": [
+                {
+                    "text": "AAlberts Surface Techologies, f.d. Hauck Heat Treatment och f.f.d. Stålservice, även f.f.f.d. J-son Härd. Kärt barn har många namn. Men vi har alltid hållit oss till en sak; att göra stål hårdare."
+                },
+                {
+                    "text": "Att göra stål hårade är inte helt sanningsenligt, man kan också göra det mjukare. I ett härderi så specialicerar man sig inom värmebehandling. Via denna värmebehandling så kan man manipulera fram flera olika egenskaper hos stålet som senare ska appliceras med sin nya, anpassade struktur där den gör bäst nytta."
+                },
+                {
+                    "text": "Mitt arbete går ut på ungefär samma sätt som på färjan, jag ska vara vaksam på vad som händer i produktionen, se till så att ingen katastrof sker. Om allt verkar lungt med de 900 C° varma elementen med en omsvepande atmosfär av propan, metanol, ammoniak och kväve, så ska jag se till så att vi har något att mata ungarna med."
+                }
+            ]
+        }
+    ],
+    "educations": [
+        {
+            "title": "Hotell och Restaurang, Finnvedens Gymnasium",
+            "city": "Värnamo",
+            "duration": "aug 2009 \u2014 juni 2012"
+        },
+        {
+            "title": "Webbutveckling ASP.NET, Jönköpings Universitet",
+            "city": "Värnamo",
+            "duration": "aug 2021 \u2014 juni 2023 [pågående]"
+        }
+    ]
+}
